@@ -1,0 +1,74 @@
+.main {
+    text-align: center;
+    justify-content: center;
+    display: flex; 
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: #c3cae7;
+  }
+  .sub-main {
+    display: flex;
+    justify-content: center;
+    height: 450px;
+    width: 40%;
+    box-shadow: 0 8px 15px rgb(93, 89, 89);
+    padding-top: 30px;
+    border-radius: 60px; 
+    background-color: white;
+  }
+
+  input{
+      width: 300px;
+      height: 50px;
+      border-radius: 60px;
+      box-shadow: inset 0px 0px 25px 0px #888;
+      border: none;
+      outline: none;
+      background-color: #fff;
+  }
+  h1{
+    text-shadow: 2px 2px 5px rgb(137, 134, 134);
+  }
+
+  .email{
+      height: 25px;
+      width: 380px;
+      position: absolute;
+      padding: 14px 0 0 25px;
+  }
+
+  .name{
+      padding-left: 70px;
+      font-size: 20px;
+  }
+  .second-input{
+      padding-top: 20px;
+  }
+
+  button{
+      width: 380px;
+      height: 50px;
+      border-radius: 60px;
+      background-color: #b103fc;
+      color: white;
+      font-size: 25px;
+      border: none;
+  }
+  .login-button{
+      padding-top: 25px;
+  }
+
+  .link{
+      font-size: 25px;
+      font-weight: 400;
+  }
+   
+   @media only screen and (max-width:786px) {
+    
+    .sub-main {
+       
+        height: 450px;
+        width: 95%;
+        
+      }
+   }
